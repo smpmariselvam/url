@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState('')
   const [copied, setCopied] = useState(false)
 
-  const API_URL = 'http://localhost:5000'
+  const API_URL = 'https://url-backend-ip4f.onrender.com/'
 
   useEffect(() => {
     fetchUrls()
